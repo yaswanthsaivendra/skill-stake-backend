@@ -169,3 +169,12 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Static and Media
+/staticfiles/
+/media/
+
+# Keep static directory but ignore its contents
+/static/*
+!/static/.gitkeep
+.env
